@@ -1,0 +1,9 @@
+the yearly requirements:
+
+* Front-End
+	* Html
+	* Css
+	* JavaScript
+	* React
+	* vue
+	* Front-End Kit ( figma, adobe xd, ...)
