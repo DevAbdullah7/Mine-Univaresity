@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.pageTitle {
+  display: flex;
+  justify-content: center;
+  color: rgb(212, 0, 255);
+  text-align: center;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+h2 {
+  display: flex;
+  justify-content: center;
+}

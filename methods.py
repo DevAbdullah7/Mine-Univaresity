@@ -17,12 +17,50 @@ elif 22 <= time_now.day <= 31:
     this_week = 4
 
 
+def courses():
+    def cs50():
+        os.system('courses\\\\cs50\\\\main.bat')
+
+    def python():
+        pass
+
+    def html():
+        pass
+
+    def css():
+        pass
+
+    def js():
+        print('\nJavaScript course: 1')
+        print('Jquery course: 2')
+        print('ReactJs course: 3')
+        user = int(input('\nchoice : \tTo Exit prees: ( 0 ): '))
+        if user == 1:
+            os.system('courses\\\\js\\\\\js_course\\\\main.bat')
+    print('\nCS50 course: 1')
+    print('Python course: 2')
+    print('Html course: 3')
+    print('Css course: 4')
+    print('JavaScript course: 5')
+    user = int(input('\nchoice : \tTo Exit prees: ( 0 ): '))
+    if user == 1:
+        cs50()
+    elif user == 2:
+        python()
+    elif user == 3:
+        html()
+    elif user == 4:
+        css()
+    elif user == 5:
+        js()
+
+
 def Requireds():
     print('\nYearly Requirements: 1')
     print('Monthly Requirements: 2')
     print('Weekly Requirements: 3')
     print('Daily Requirements: 4')
-    klint = int(input('\n( choice ): \t ( To Exit prees 0 ): '))
+    klint = int(input('\nchoice : \tTo Exit prees: ( 0 ): '))
     try:
         if klint == 1:
             os.system('timeline\\\\{}\\\\Requirements.txt'.format(time_now.year))
